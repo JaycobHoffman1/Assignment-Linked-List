@@ -37,12 +37,6 @@ class SinglyLinkedList:
             current = current.next
         return False
 
-    def __iter__(self):
-        current = self.head
-        while current:
-            yield current.data
-            current = current.next
-
     def traversal(self):
         print(" Task 3 - Linked list elements:")
         for data in self:
